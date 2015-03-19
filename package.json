@@ -1,0 +1,17 @@
+{
+  "name": "terraseer-windshaft",
+  "description": "Windshaft for TerraSeer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerraSeer/windshaft.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "windshaft": "~0.40.0",
+    "underscore": "~1.8.2"
+  }
+}
