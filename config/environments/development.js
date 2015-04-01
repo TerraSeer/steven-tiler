@@ -1,10 +1,9 @@
 module.exports.name = 'development';
 module.exports.postgres = {
-    user: 'postgres',
+    user: 'hds_user',
+    password: 'password',
     host: '127.0.0.1',
     port: 5432,
-    geometry_field: 'the_geom',
-    srid: 4326
 };
 module.exports.millstone = {cache_basedir: '/tmp/windshaft-dev/millstone'};
 module.exports.redis = {
