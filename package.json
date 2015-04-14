@@ -1,11 +1,11 @@
 {
-  "name": "terraseer-windshaft",
-  "description": "Windshaft for TerraSeer",
+  "name": "ty",
+  "description": "An opinionated tiler based on Windshaft.",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TerraSeer/windshaft.git"
+    "url": "https://github.com/TerraSeer/ty.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

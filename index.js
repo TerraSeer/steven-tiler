@@ -8,7 +8,7 @@ var _         = require('underscore');
 
 // Force 'development' environment
 var ENV = 'development';
-var PORT = 4000;
+var PORT = 80;
 
 // set environment specific variables
 global.settings     = require('./config/settings');
