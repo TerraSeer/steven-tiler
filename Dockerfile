@@ -1,8 +1,8 @@
-FROM ubuntu:precise
-ENV DEBIAN_FRONTEND noninteractive
-ADD . /vagrant
-WORKDIR /vagrant
-RUN bash config/provision.sh
-EXPOSE 80
-CMD ["/usr/bin/node", "/vagrant/index.js"]
+FROM christianbundy/windshaft
+MAINTAINER Christian Bundy <me@christianbundy.com>
 
+ADD . /docker
+WORKDIR /docker
+
+RUN npm install
+CMD npm start
