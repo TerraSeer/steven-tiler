@@ -9,7 +9,8 @@ Windshaft tailored for TerraSeer.
 2. Clone this repository and change the working directory.
 
     ``` shell
-    REPO=windshaft-terraseer git clone https://github.com/TerraSeer/$REPO.git && cd $REPO
+    git clone https://github.com/TerraSeer/windshaft-terraseer.git
+    cd windshaft-terraseer
     ```
 
 4. Build the images and start up the services.
