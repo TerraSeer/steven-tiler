@@ -6,10 +6,10 @@ Windshaft tailored for TerraSeer.
 
 1. [Install Docker](https://docs.docker.com/installation/) and [Compose](https://docs.docker.com/compose/#installation-and-set-up).
 
-2. Clone this repository.
+2. Clone this repository and change the working directory.
 
     ``` shell
-    git clone https://github.com/TerraSeer/windshaft-terraseer.git
+    REPO=windshaft-terraseer git clone https://github.com/TerraSeer/$REPO.git && cd $REPO
     ```
 
 4. Build the images and start up the services.
