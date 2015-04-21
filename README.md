@@ -1,31 +1,35 @@
-# Windshaft
+# Windshaft-TerraSeer
 
-TerraSeer's Node.js map tile server for PostGIS with CartoCSS styling.
+Windshaft tailored for TerraSeer.
 
 ## Installation
 
-1. [Install Vagrant](https://docs.vagrantup.com/v2/installation/) with the [VirtualBox provider](https://www.virtualbox.org/wiki/Downloads).
+1. [Install Docker](https://docs.docker.com/installation/) and [Compose](https://docs.docker.com/compose/#installation-and-set-up).
 
 2. Clone this repository.
 
-    ```shell
-    git clone https://github.com/TerraSeer/windshaft.git
+    ``` shell
+    git clone https://github.com/TerraSeer/windshaft-terraseer.git
     ```
 
-4. Create and configure a guest machine.
+4. Build the images and start up the services.
 
-    ```sh
-    vagrant up
+    ``` shell
+    docker-compose build && docker-compose up
     ```
 
 ## Usage
 
-Open http://192.168.192.168:4000 in your browser to access the REST API.
+Open the service at `$(boot2docker ip)` on Boot2Docker or `localhost` on GNU/Linux.
+
+``` shell
+open $(boot2docker ip 2> /dev/null || echo localhost)
+```
 
 ## Support
 
-Please [open an issue](https://github.com/TerraSeer/windshaft/issues/new) for support.
+Please [open an issue](https://github.com/TerraSeer/windshaft-terraseer/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/TerraSeer/windshaft/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/TerraSeer/windshaft-terraseer/compare/).

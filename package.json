@@ -1,17 +1,22 @@
 {
-  "name": "terraseer-windshaft",
-  "description": "Windshaft for TerraSeer",
+  "name": "windshaft-terraseer",
+  "description": "Windshaft tailored for TerraSeer.",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TerraSeer/windshaft.git"
+    "url": "https://github.com/TerraSeer/windshaft-terraseer.git"
   },
   "scripts": {
+    "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "windshaft": "~0.40.0",
+    "windshaft": "~0.42.2",
     "underscore": "~1.8.2"
+  },
+  "engines": {
+    "node": "0.10.25"
   }
 }
+
