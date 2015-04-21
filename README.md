@@ -23,7 +23,7 @@ Windshaft tailored for TerraSeer.
 Open the service at `$(boot2docker ip)` on Boot2Docker or `localhost` on GNU/Linux.
 
 ``` shell
-open http://$(boot2docker ip 2> /dev/null || echo localhost)
+open "http://$(boot2docker ip 2> /dev/null || echo localhost)"
 ```
 
 ## Support
