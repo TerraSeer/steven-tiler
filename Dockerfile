@@ -8,4 +8,4 @@ EXPOSE 80
 
 RUN npm install
 
-CMD ["/usr/bin/npm", "start"]
+CMD npm start
