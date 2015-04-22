@@ -1,11 +1,11 @@
 {
-  "name": "windshaft-terraseer",
-  "description": "Windshaft tailored for TerraSeer.",
+  "name": "steven-tiler",
+  "description": "A rock-solid map tiling server.",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TerraSeer/windshaft-terraseer.git"
+    "url": "https://github.com/TerraSeer/steven-tiler.git"
   },
   "scripts": {
     "start": "node lib/index.js",

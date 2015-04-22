@@ -1,6 +1,6 @@
-# Windshaft-TerraSeer
+# Steven Tiler
 
-Windshaft tailored for TerraSeer.
+A rock-solid map tiling server.
 
 ## Installation
 
@@ -9,8 +9,8 @@ Windshaft tailored for TerraSeer.
 2. Clone this repository and change the working directory.
 
     ``` shell
-    git clone https://github.com/TerraSeer/windshaft-terraseer.git
-    cd windshaft-terraseer
+    git clone https://github.com/TerraSeer/steven-tiler.git
+    cd steven-tiler
     ```
 
 4. Build the images and start up the services.
@@ -29,8 +29,8 @@ open "http://$(boot2docker ip 2> /dev/null || echo localhost)"
 
 ## Support
 
-Please [open an issue](https://github.com/TerraSeer/windshaft-terraseer/issues/new) for support.
+Please [open an issue](https://github.com/TerraSeer/steven-tiler/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/TerraSeer/windshaft-terraseer/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/TerraSeer/steven-tiler/compare/).
