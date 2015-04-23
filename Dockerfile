@@ -1,10 +1,9 @@
-FROM christianbundy/windshaft:0.42.2
+FROM christianbundy/windshaft:0.19.4
 MAINTAINER TerraSeer
 
 ADD . /docker
-WORKDIR /docker/
 
-EXPOSE 80
+WORKDIR /docker/
 
 RUN npm install
 

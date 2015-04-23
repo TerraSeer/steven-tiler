@@ -3,16 +3,18 @@ web:
   ports:
     - "80:80"
   links:
-    - cache
-    - db
-
-db:
+    - redis
+    - postgres
+  environment:
+    - PGUSER=postgres
+    - PGHOST=db
+    - PGPASSWORD=password
+postgres:
   image: mdillon/postgis:9.4
   environment:
     - POSTGRES_PASSWORD=password
   ports:
     - "5432:5432"
   command: postgres
-
-cache:
+redis:
   image: redis
