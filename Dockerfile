@@ -1,4 +1,4 @@
-FROM christianbundy/windshaft:0.19.4
+FROM christianbundy/windshaft:0.40.0
 MAINTAINER TerraSeer
 
 ADD . /docker
